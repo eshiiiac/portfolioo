@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(105, 73, 249);
+    position: fixed;
+    top: 0;
+}
+main{
+    background-color: rgb(0, 0, 0);
+}
+nav li{
+ list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+.homepage{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a{
+    height:80vh;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: center;
+
+}
+.a h1{
+    font-size: 3rem ;
+    color: white;
+    cursor: pointer;
+
+}
+.a h2{
+    font-size: 1.5rem ;
+    color: white;
+}
+.a h2 span{
+    color: #ff215c;
+}
+.a h2 span:hover{
+    color: #fe3b6f;
+    cursor: pointer;
+}
+.b{
+    margin-top: 2%;
+    display: flex;
+
+}
+.b .contact{
+    color: white;
+    text-decoration:none ;
+    border: 2px solid white;
+    padding: 5px 15px;
+    font-size: 1rem ;
+}
+.b .contact:hover{
+    color: black;
+    background-color: white;
+}
+
+.aboutpage{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.box0{
+    color: rgb(255, 255, 255);
+    width: 25%;
+    height: 25vh;
+    border: 3px solid white;
+    opacity: 90%;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.box0 a{
+    color: white;
+}
+.box1{
+    color: rgb(255, 255, 255);
+    width: 25%;
+    height: 25vh;
+    border: 3px solid rgb(255, 255, 255);
+    opacity: 90%;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.box2{
+    color: rgb(255, 255, 255);
+    width: 25%;
+    height: 25vh;
+    border: 3px solid rgb(255, 255, 255);
+    opacity: 90%;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.box0:hover{
+    color: white;
+    background-color: #ff215c;
+}
+.box1:hover{
+    color: white;
+    background-color: #ff215c;
+    height: 35vh;
+    font-size: 1.2rem;
+    width: 30%;
+}
+.box2:hover{
+    color: white;
+    background-color: #ff215c;
+    height: 30vh;
+    font-size: 1.2rem;
+}
+.servicespage{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicespage span{
+    color: #ff215c;
+}
+.contactpage{
+    height: 15vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactpage .box{
+    margin-top: 5%;
+    height: 5vh;
+    width: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.boxa a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.boxa a:hover{
+    color: #ff215c;
+    
+}
+boxa:hover{
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px){
+    nav li a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .homepage{
+        height: 80vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .a{
+        height:80vh;
+        width: 150vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: center  ;
+    
+    }
+
+    .a h1{
+        font-size: 2rem ;
+        color: white;
+        cursor: pointer;
+    
+    }
+    .a h2{
+        font-size: 1rem ;
+        color: white;
+    }
+    .b{
+        margin-top: 2%;
+        display: flex;
+    }
+    .b .contact{
+        color: white;
+        text-decoration:none ;
+        border: 2px solid white;
+        padding: 5px 15px;
+        font-size: 1rem ;
+        justify-content: center;
+    }
+    .aboutpage{
+        height: 40vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box0{
+        color: rgb(255, 255, 255);
+        width: 25%;
+        height: 30vh;
+        border: 3px solid white;
+        opacity: 90%;
+        background-color: transparent;
+        padding: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 0.5rem;
+    }
+    .box1{
+        color: rgb(255, 255, 255);
+        width: 25%;
+        height: 30vh;
+        border: 3px solid rgb(255, 255, 255);
+        opacity: 90%;
+        background-color: transparent;
+        padding: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 0.5rem;
+    }
+    .box2{
+        color: rgb(255, 255, 255);
+        width: 25%;
+        height: 30vh;
+        border: 3px solid rgb(255, 255, 255);
+        opacity: 90%;
+        background-color: transparent;
+        padding: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 0.5rem;
+    }
+    .box1:hover{
+        color: white;
+        background-color: #ff215c;
+        height: 30vh;
+        font-size: 0.5rem;
+        width: 30%;
+    }
+    .box2:hover{
+        color: white;
+        background-color: #ff215c;
+        height: 30vh;
+        font-size: 0.5rem;
+    }
+
+    .servicespage{
+        height: 10vh;
+        width: auto;
+        display: flex;
+        color: white;
+        display: flex;
+    }
+    .servicespage h1{
+        font-size: 1rem;
+    }
+}
+.contactpage{
+    height: 10vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
